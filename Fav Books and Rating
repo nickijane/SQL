@@ -1,0 +1,12 @@
+/** Book list:
+Watermelon (4)
+Narnia Box Set (5)
+Maeve Binchy (5)
+**/
+
+CREATE TABLE booklist (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER );
+
+INSERT INTO booklist VALUES (1, "Watermelon", 4);
+INSERT INTO booklist VALUES (2, "Narnia Box Set", 5);
+INSERT INTO booklist VALUES (3, "Maeve Binchy", 5);
+SELECT * FROM booklist;
